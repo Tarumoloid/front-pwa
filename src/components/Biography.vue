@@ -15,7 +15,7 @@
 </div>
 <div v-else>
   <div :class="$style.TopPic2" align="center">
-    <img src="../assets/Profile2.jpg" width="450px" height="500px">
+    <img src="../assets/Profile2.jpg" width="300px" height="400px">
     <div :class="$style.Content">
       <p>Kazumasa Tarumoto</p>
       <p>1990/08/22</p>
@@ -62,7 +62,7 @@ export default {
 
 .TopPic2{
   position: relative;
-  margin: 30% -20% 0% 0%;
+  margin: 20% 0% 0% 0%;
 }
 
 .Content {
